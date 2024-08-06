@@ -1,5 +1,5 @@
-# Deploy Meta-Llama-3.1-8B-Instruct-GGUF using Inferless
-[Meta-Llama-3.1-8B-Instruct-GGUF](https://huggingface.co/bartowski/Meta-Llama-3.1-8B-Instruct-GGUF) model is part of Meta's advanced suite of multilingual large language models. This 8B Instruct model has been fine-tuned using supervised fine-tuning (SFT) and reinforced through reinforcement learning with human feedback (RLHF). This combination of methodologies ensures that the model not only performs with high accuracy but also aligns closely with human preferences for helpfulness and safety.
+# Deploy Llama-2-7B-Chat-GGUF using Inferless
+[Llama-2-7B-Chat-GGUF](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF) model is part of Meta's Llama 2 model family, which is a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 70 billion parameters. This is the repository for the quantized GGUF 7B fine-tuned model, optimized for dialogue use cases. 
 
 ### Fork the Repository
 Get started by forking the repository. You can do this by clicking on the fork button in the top right corner of the repository page.
