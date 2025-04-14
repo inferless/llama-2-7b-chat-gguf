@@ -4,7 +4,7 @@ import os
 
 class InferlessPythonModel:
     def initialize(self):
-        nfs_volume = os.getenv("NFS_VOLUME")
+        nfs_volume = os.getenv("NFS_VOLUME","tmp")
         if os.path.exists(nfs_volume + "/llama-2-7b-chat.Q8_0.gguf") == False :
             cache_file = hf_hub_download(
                                 repo_id="TheBloke/Llama-2-7B-Chat-GGUF",
